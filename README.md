@@ -6,7 +6,10 @@ This repo contains an eCommerce Recommendation App built using FastAPI, NextJS, 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
-1. Create a virtual environment: ''' source venv/bin
+1. Navigate to the root of the project directory and create a virtual environment: ```python -m venv venv```
+2. Activate this virtual environment: ```source venv/bin/activate```
+3. 
+
 First, run the development server:
 
 ```bash
