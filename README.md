@@ -19,6 +19,7 @@ Navigate to the backend folder and run the following command:
 
 Open [http://localhost:8000](http://localhost:8000) with your browser to see the root endpoint.
 
+
 ## Starting up the Frontend
 Navigate to the frontend folder and run the following command to set up a development server:
 
