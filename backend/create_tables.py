@@ -1,6 +1,8 @@
 from database import engine, Base
 from sqlalchemy.engine import Connection
-from sqlalchemy import text
+from sqlalchemy import text, inspect
+from sqlalchemy.exc import SQLAlchemyError
+from models import Base
 
 def create_tables(connection: Connection):
     Base.metadata.drop_all(bind=engine)
