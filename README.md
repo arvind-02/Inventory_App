@@ -1,7 +1,7 @@
 # eCommerce Recommendation App
 This repo contains an eCommerce Recommendation App built using FastAPI, NextJS, and a SingleStore database. In this app, we simulate a dashboard for an online store owner. The dashboard displays a card for each incoming order, showing details about the user and the purchased product. Additionally, each card includes a button that, when clicked, recommends a new product for that user. 
 
-We have fully integrated database support, account support and multi project / employee support. Simply create an account and upload the PDF resumes of your employees, and a text description of the projects your company aims to work on. The rest will be handled by the AI!
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
