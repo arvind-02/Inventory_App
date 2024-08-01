@@ -1,13 +1,11 @@
 from fastapi import FastAPI, Depends, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from sqlalchemy import desc
 from sqlalchemy.orm import Session
 from sqlalchemy.exc import SQLAlchemyError
 from database import get_db, get_engine
 import schemas
 import crud
-from typing import List, Tuple
-from models import Product
+from typing import List
 
 app = FastAPI()
 

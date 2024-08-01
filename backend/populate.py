@@ -1,13 +1,10 @@
-from faker import Faker
-from sqlalchemy import BigInteger, text
+from sqlalchemy import text
 from sqlalchemy.orm import Session
 from sqlalchemy.engine import Connection
-from models import User, Product, Order
+from models import Order
 from database import SessionLocal, engine
-import random
 from openai import OpenAI
 import os
-import numpy as np
 import json
 from user_data import users
 from product_data import products
