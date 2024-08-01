@@ -9,7 +9,6 @@ distro==1.9.0
 dnspython==2.6.1
 email_validator==2.2.0
 exceptiongroup==1.2.1
-Faker==26.0.0
 fastapi==0.111.0
 fastapi-cli==0.0.4
 h11==0.14.0
